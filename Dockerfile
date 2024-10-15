@@ -41,7 +41,7 @@ RUN apt-get install libc6-dbg
 
 WORKDIR /app
 
-#COPY ./minishell /app
+#COPY [project/path (ex.: ~/minishell)] /app
 
 #RUN make
 
