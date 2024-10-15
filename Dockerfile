@@ -30,7 +30,7 @@ RUN apt-get update && \
 RUN apt install python3-setuptools -y && \
     apt install pipx -y && \
     apt install python3.8-venv -y && \
-    pipx install norminette --force && \
+    pipx install norminette==3.3.51 --force && \
     pipx ensurepath
 
 ENV PATH=/root/.local/bin:$PATH
